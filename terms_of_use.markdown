@@ -28,6 +28,17 @@ You cannot post content related to the following:
 * Misrepresentative content - misrepresents, misstates, or conceals information about the publisher, the content creator, the purpose of the content, or the content itself
 * Deceptive practices - enticing users to engage with content under false or unclear pretenses
 * Manipulated media - deceives users through manipulated media related to politics, social issues, or matters of public concern.
+* Sexual
+* Shocking - contains gruesome, graphic, or disgusting accounts or imagery
+* Explosives - promotes the sale of products that are designed to explode and could cause damage to nearby people or property
+* Guns, gun parts, and related products
+* Tobacco
+* Recreational drugs
+* Alcohol sale or misuse
+* Online gambling
+* Prescription drugs
+* Unapproved pharmaceuticals and supplements
+
 
 
 ### Additional Rights We Retain
