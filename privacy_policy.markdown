@@ -42,6 +42,13 @@ Our primary source of revenue is advertisements, and we use Google AdMob for thi
 
 All user data collected by Google AdMob is encrypted in transit using the Transport Layer Security (TLS) protocol.
 
+By default, Google AdMob collects information about:
+
+* Your device’s IP address - Which may be used to estimate the general location of a device
+* User product interactions - Collects user product interactions and interaction information, including app launch, taps, and video views.
+* Diagnostic information - Collects information related to the performance of your app and the SDK, including crash logs, app launch time, hang rate, and energy usage.
+* Device and Account identifiers - Collects Android advertising (ad) ID, app set ID, and, if applicable, other identifiers related to signed-in accounts on the device.
+
 While Google AdMob collects information, we do not store any of this information on our servers.
 
 ## Data Storage
