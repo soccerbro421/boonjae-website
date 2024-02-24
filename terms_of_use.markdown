@@ -17,7 +17,7 @@ Instead of paying to use Boonjae, you acknowledge that we can show you ads.
 
 In return for our commitment to provide the Service, we require you to make the below commitments to us.
 
-* You must be at least 13 years old
+* You must be at least 17 years old
 
 #### How you can't use Boonjae
 You cannot post content related to the following:
