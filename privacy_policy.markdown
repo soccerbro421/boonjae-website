@@ -3,62 +3,67 @@ layout: "page"
 title: Privacy Policy
 ---
 
-This Privacy Policy explains how we collect, use, and share your information.
+# Privacy Policy
 
-### The information we collect:
+This Privacy Policy explains how Boonjae ("we," "us," or "our") collects, uses, and shares your information and ensures compliance with the EU's General Data Protection Regulation (GDPR) and other common regulations.
 
-#### Your activity and information you provide
-On Boonjae, you can take photos/videos of your habits to share with your friends. We call all of the things you can do on Boonjae "activity". Some activity we collect are:
-* Content you create like photos and videos
-* Information about your habits like what day of the week you want to complete them
-* Your nickname
-* How long you spend on our app
+## Information We Collect
 
-#### Friends
-We keep track of who you're friends with so you can see their posts on your feed.
+### Your Activity and Information You Provide
 
-#### App and device information
-We do not store/save device IP addresses BUT this information is used by Google AdMob. 
+On Boonjae, you can engage in various activities such as sharing photos and videos of your habits. We collect the following information related to your activities:
 
-#### Personally Identifiable Information
-We require email addresses ONLY for login purposes. Other users will not be able to see your email.
-We also require a nickname (doesn't have to be your real name).
+- Content you create, including photos and videos
+- Information about your habits, such as scheduled completion days
+- Your nickname
+- App usage duration
 
+### Friends
 
-#### Do we sell your information ?
-We NEVER sell your information to anyone.
+We track your connections with other users to display their posts on your feed.
 
+### App and Device Information
 
-### Third Parties that we give your information to
-Our only stream of revenue is in the form of advertisements. We only use Google AdMob to display these Ads.
+We do not store device IP addresses directly, but please note that this information is utilized by Google AdMob, our advertising partner.
 
-By default, Google AdMob collects information about:
-* Your device’s IP address - Which may be used to estimate the general location of a device
-* User product interactions - Collects user product interactions and interaction information, including app launch, taps, and video views.
-* Diagnostic information - Collects information related to the performance of your app and the SDK, including crash logs, app launch time, hang rate, and energy usage.
-* Device and Account identifiers - Collects Android advertising (ad) ID, app set ID, and, if applicable, other identifiers related to signed-in accounts on the device.
+### Personally Identifiable Information
 
+We require email addresses for login purposes only. User email addresses are not visible to other users. We also require a nickname, which does not have to be your real name.
 
-For more information, please see: https://developers.google.com/admob/android/privacy/play-data-disclosure  
+## Data Handling
 
-All of the user data collected by Google Mobile Ads SDK is encrypted in transit using the Transport Layer Security (TLS) protocol. 
+### Do We Sell Your Information?
 
+We NEVER sell your information to any third parties.
 
+### Third Parties
 
-While Google AdMob collects this information. We do not store any of this information. 
+Our primary source of revenue is advertisements, and we use Google AdMob for this purpose. Google AdMob collects certain information, as outlined in their privacy policy [here](https://developers.google.com/admob/android/privacy/play-data-disclosure). We ensure that any third party we share user data with provides equal protection as stated in this privacy policy.
 
+All user data collected by Google AdMob is encrypted in transit using the Transport Layer Security (TLS) protocol.
 
-### How we save your information
-The only cloud provider we use is Google’s Firebase. 
+While Google AdMob collects information, we do not store any of this information on our servers.
 
-Please see https://firebase.google.com/support/privacy on information about Privacy and Security in Firebase
+## Data Storage
 
-### To update your consent
-NOTE: this is only for users that fall under the GDPR
-Please click on ellipses on your profile page to navigate to your settings. 
+We utilize Google's Firebase as our cloud provider. For information on Privacy and Security in Firebase, please refer to [Google Firebase Privacy](https://firebase.google.com/support/privacy).
 
-### To delete your information
-Please navigate to your settings to find the Delete Account selection.
+Google Firebase encrypts data in transit and encrypts data at rest.
 
-### To download your information
-Please email us at boonjae.help@gmail.com to get a JSON of your information. 
+## User Rights
+
+### Update Your Consent (GDPR Users Only)
+
+If you fall under the GDPR jurisdiction, you can update your consent preferences by clicking on the ellipses on your profile page and navigating to your settings.
+
+### Delete Your Information
+
+To delete your account and associated information, please navigate to your settings and select the "Delete Account" option.
+
+### Download Your Information
+
+For a JSON file containing your information, please email us at [boonjae.help@gmail.com](mailto:boonjae.help@gmail.com).
+
+We are committed to protecting your privacy and continuously reviewing and updating our practices to ensure compliance with applicable data protection laws.
+
+Last Updated: 2-24-2024
