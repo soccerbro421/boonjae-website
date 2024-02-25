@@ -50,17 +50,16 @@ We require email addresses for login purposes only. User email addresses are not
 #### Usage Data
 Usage Data is collected automatically when using the Service.
 
-Usage Data may include information such as Your Device's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that You visit, the time and date of Your visit, the time spent on those pages, unique device identifiers and other diagnostic data.
+Usage Data may include information such as Your Device's Internet Protocol address (e.g. IP address), how you interact with ads, the pages of our Service that You visit, the time and date of Your visit, the time spent on those pages, unique device identifiers and other diagnostic data.
 
 When You access the Service by or through a mobile device, We may collect certain information automatically, including, but not limited to, the type of mobile device You use, Your mobile device unique ID, the IP address of Your mobile device, Your mobile operating system, the type of mobile Internet browser You use, unique device identifiers and other diagnostic data.
 
-We may also collect information that Your browser sends whenever You visit our Service or when You access the Service by or through a mobile device.
 
 #### Information Collected while Using the Application
 While using Our Application, in order to provide features of Our Application, We may collect, with Your prior permission:
 
 * Pictures and other information from your Device's camera and photo library
-We use this information to provide features of Our Service, to improve and customize Our Service. The information may be uploaded to the Company's servers and/or a Service Provider's server or it may be simply stored on Your device.
+We use this information to provide features of Our Service, to improve and customize Our Service. The information will be uploaded to the Firestore Storage.
 
 You can enable or disable access to this information at any time, through Your Device settings.
 
@@ -91,7 +90,7 @@ The Company may use Personal Data for the following purposes:
 
 * For the performance of a contract: the development, compliance and undertaking of the purchase contract for the products, items or services You have purchased or of any other contract with Us through the Service.
 
-* To contact You: To contact You by email, telephone calls, SMS, or other equivalent forms of electronic communication, such as a mobile application's push notifications regarding updates or informative communications related to the functionalities, products or contracted services, including the security updates, when necessary or reasonable for their implementation.
+* To contact You: To contact You by email or other equivalent forms of electronic communication, such as a mobile application's push notifications regarding updates or informative communications related to the functionalities, products or contracted services, including the security updates, when necessary or reasonable for their implementation.
 
 * To provide You with news, special offers and general information about other goods, services and events which we offer that are similar to those that you have already purchased or enquired about unless You have opted not to receive such information.
 
@@ -106,21 +105,22 @@ We may share Your personal information in the following situations:
 * With Service Providers: We may share Your personal information with Service Providers to monitor and analyze the use of our Service, to contact You.
 * For business transfers: We may share or transfer Your personal information in connection with, or during negotiations of, any merger, sale of Company assets, financing, or acquisition of all or a portion of Our business to another company.
 * With Affiliates: We may share Your information with Our affiliates, in which case we will require those affiliates to honor this Privacy Policy. Affiliates include Our parent company and any other subsidiaries, joint venture partners or other companies that We control or that are under common control with Us.
-* With business partners: We may share Your information with Our business partners to offer You certain products, services or promotions.
 * With other users: when You share personal information or otherwise interact in the public areas with other users, such information may be viewed by all users and may be publicly distributed outside.
 * With Your consent: We may disclose Your personal information for any other purpose with Your consent.
 
 ### Retention of Your Personal Data
-The Company will retain Your Personal Data only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use Your Personal Data to the extent necessary to comply with our legal obligations (for example, if we are required to retain your data to comply with applicable laws), resolve disputes, and enforce our legal agreements and policies.
+The Company will retain Your Personal Data only for as long as you have an account with us. If you delete your account all of your data will be deleted. 
 
 The Company will also retain Usage Data for internal analysis purposes. Usage Data is generally retained for a shorter period of time, except when this data is used to strengthen the security or to improve the functionality of Our Service, or We are legally obligated to retain this data for longer time periods.
 
 ### Transfer of Your Personal Data
-Your information, including Personal Data, is processed at the Company's operating offices and in any other places where the parties involved in the processing are located. It means that this information may be transferred to — and maintained on — computers located outside of Your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from Your jurisdiction.
+Your information, including Personal Data, is processed using Google's Firebase and in any other places where the parties involved in the processing are located. It means that this information may be transferred to — and maintained on — computers located outside of Your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from Your jurisdiction.
 
 Your consent to this Privacy Policy followed by Your submission of such information represents Your agreement to that transfer.
 
 The Company will take all steps reasonably necessary to ensure that Your data is treated securely and in accordance with this Privacy Policy and no transfer of Your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of Your data and other personal information.
+
+Google's Firebase encrypts data in transit and at rest. 
 
 ### Delete Your Personal Data
 You have the right to delete or request that We assist in deleting the Personal Data that We have collected about You.
@@ -146,6 +146,7 @@ The Company may disclose Your Personal Data in the good faith belief that such a
 * Prevent or investigate possible wrongdoing in connection with the Service
 * Protect the personal safety of Users of the Service or the public
 * Protect against legal liability
+
 #### Security of Your Personal Data
 The security of Your Personal Data is important to Us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While We strive to use commercially acceptable means to protect Your Personal Data, We cannot guarantee its absolute security.
 
@@ -246,7 +247,6 @@ In some special cases we also use cookies provided by trusted third parties. The
 
 Hopefully that has clarified things for you and as was previously mentioned if there is something that you aren't sure whether you need or not it's usually safer to leave cookies enabled in case it does interact with one of the features you use on our site.
 
-For more general information on cookies, please read the Cookies Policy article.
 
 However if you are still looking for more information then you can contact us through one of our preferred contact methods:
 
