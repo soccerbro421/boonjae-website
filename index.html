@@ -6,19 +6,66 @@ layout: page
 ---
 
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Your Page Title</title>
   <link rel="stylesheet" href="/assets/css/style.css">
+  <script defer src="/assets/scripts/app.js"></script>
+  <script src="https://unpkg.com/@rive-app/canvas@2.9.1"></script>
   <!-- Include any necessary stylesheets or scripts -->
 </head>
+
 <body>
 
-  <img src="assets/images/logo.png" alt="Your Logo" class="logo">
-<!-- Your page content -->
-<h1>Hello :D</h1>
+
+  <section>
+    <canvas id="ellie" class="ellie"></canvas>
+    <script>
+      const r = new rive.Rive({
+          src: "/assets/rive/lottie_idle.riv",
+          // OR the path to a discoverable and public Rive asset
+          // src: '/public/example.riv',
+          canvas: document.getElementById("ellie"),
+          autoplay: true,
+          // stateMachines: "bumpy",
+          onLoad: () => {
+            r.resizeDrawingSurfaceToCanvas();
+          },
+      });
+  </script>
+  <p>Hi there :D My name is Ellie and welcome to Boonjae ! </p>
+    <!-- <img src="assets/images/logo.png" alt="Your Logo" class="logo"> -->
+  </section>
+
+  <section class="hidden">
+    <img src="assets/images/screenshots/home_screen.png" alt="Your Logo" class="screenshot">
+    <p>Boonjae makes social media a place to be productive and create new habits/hobbies</p>
+  </section>
+
+  <section class="hidden">
+    <img src="assets/images/screenshots/habit_screen.png" alt="Your Logo" class="screenshot">
+    <p>See your habits over time by posting regularly</p>
+  </section>
+
+
+  <section class="hidden">
+    <img src="assets/images/screenshots/feed_screen.png" alt="Your Logo" class="screenshot">
+    <p>Share your posts with your friends to keep each other accountable </p>
+  </section>
+
+
+  <section class="hidden">
+    <img src="assets/images/screenshots/feed_screen.png" alt="Your Logo" class="screenshot">
+    <p>Keep track of your habits by checking off your tasks for the week </p>
+  </section>
+
+
+ 
+    
+
 
 </body>
-</html>
 
+</html>
