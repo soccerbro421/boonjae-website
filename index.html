@@ -57,8 +57,28 @@ layout: page
 
 
   <section class="hidden">
-    <img src="assets/images/screenshots/feed_screen.png" alt="Your Logo" class="screenshot">
+    <img src="assets/images/screenshots/task_screen.png" alt="Your Logo" class="screenshot">
     <p>Keep track of your habits by checking off your tasks for the week </p>
+  </section>
+
+
+  <section>
+    <canvas id="ellie_sleepy" class="ellie"></canvas>
+    <script>
+      const s = new rive.Rive({
+          src: "/assets/rive/sleepy_lottie.riv",
+          // OR the path to a discoverable and public Rive asset
+          // src: '/public/example.riv',
+          canvas: document.getElementById("ellie_sleepy"),
+          autoplay: true,
+          // stateMachines: "bumpy",
+          onLoad: () => {
+            s.resizeDrawingSurfaceToCanvas();
+          },
+      });
+  </script>
+  <p>Thanks for checking out Boonjae ! I sleep now</p>
+    <!-- <img src="assets/images/logo.png" alt="Your Logo" class="logo"> -->
   </section>
 
 
