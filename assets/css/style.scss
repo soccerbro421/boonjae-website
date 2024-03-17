@@ -1,0 +1,26 @@
+---
+---
+@import "main";
+
+body {
+  background-color: #1e1e1e; /* Dark background color */
+  color: #e0e0e0; /* Light text color */
+}
+
+.site-nav .page-link {
+  color: #959595;
+  line-height: 1.5;
+}
+
+.site-title, .site-title:visited {
+  color: #e0e0e0;
+}
+
+.logo {
+  width: 50px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px;
+  /* Adjust the clipping as needed */
+}
+
+/* Add more styles for dark mode as needed */
